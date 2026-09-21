@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# 가상환경
+venv/
+.venv/
+env/
+
+# PyInstaller 빌드 결과 (.spec 파일은 빌드 설정이라 추적)
+build/
+dist/
+
+# 편집기 / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 환경 변수 / 비밀 정보
+.env
+.env.*
+
+# 크롤러가 만든 결과 파일
+*.xlsx
+news*.json
+kospi200*.json
+rank*.json
+~$*
+
+# 로그 / 임시 파일
+*.log
+*.tmp
